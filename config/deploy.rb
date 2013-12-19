@@ -18,7 +18,7 @@ set :keep_releases, 5
 #set :normalize_asset_timestamps, false
 set :normalize_asset_timestamps, %{public/images public/javascripts public/stylesheets}
 
-set :migration_role, 'databaseuser' # Defaults to 'db'
+set :migration_role, 'postgres' # Defaults to 'db'
 
 namespace :deploy do
 
